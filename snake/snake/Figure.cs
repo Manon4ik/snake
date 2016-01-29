@@ -10,7 +10,7 @@ namespace snake
     {
         protected List<Point> pList;
 
-        public void DrowHorLine()
+        public void Drow()
         {
             foreach (Point p in pList)
             {

@@ -18,10 +18,15 @@ namespace snake
             HorizontallLine downLine = new HorizontallLine(0, 78, 24, '+');
             VerticalLine lefLine = new VerticalLine(0, 24, 0, '+');
             VerticalLine rightLine = new VerticalLine(0, 24, 78, '+');
-            upLine.DrowHorLine();
-            downLine.DrowHorLine();
-            lefLine.DrowVertLine();
-            rightLine.DrowVertLine();
+            upLine.Drow();
+            downLine.Drow();
+            lefLine.Drow();
+            rightLine.Drow();
+
+            //отрисовка змейки
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
 
 
             Console.ReadLine();
