@@ -29,6 +29,14 @@ namespace snake
             snake.Drow();
             snake.Move();
 
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
+            System.Threading.Thread.Sleep(300);
+            snake.Move();
 
             Console.ReadLine();
         }

@@ -62,5 +62,12 @@ namespace snake
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
         }
+
+        //метод для очистки "хвоста" и рисование "головы" при движении змейки
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
+        }
     }
 }
